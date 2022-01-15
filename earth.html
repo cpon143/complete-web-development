@@ -16,6 +16,9 @@
             font-size:150%;
             background-color:gray;  
             width: 500px;  
+            position:relative;
+            left:310px;
+
         }
         .haque{
             color:green;
@@ -29,6 +32,9 @@
         }
         .width{
             width:200px;
+            position:relative;
+            margin-top: 120px;
+            left: 495px;
         }
         .mars{
             color:rgb(15, 171, 233);
@@ -40,19 +46,39 @@
             
             
             background-color:black;
-            width:560px
+            width:560px;
+            position:relative;
+            left:300px;
         }
 
-        
-
-    </style>
+        #h1-part{
+            color:blue;
+            position: fixed;
+            left: 500px;
+            z-index: 100;
+            
+        }
+        .h2{
+            color:darkblue;
+            position:relative;
+            left:350px;
+        }
+        .order-list{
+            color:darkslateblue;
+            position:relative;
+            left:350;
+        }
+        </style>
+     
     
 </head>
 
         <body>
-            <h1>Hello World!</h1>
+            <h1 id="h1-part">Hello World!</h1>
             <img src="earth.jpg" class="width">
+            <div class="h2">
             <p><h2>Some importent facts about our earth.</h2></p>
+            </div>
 
             <div id=first-section>
 
@@ -79,11 +105,12 @@
                     <li>Surface Temperature:	-88 to 58°C</li>
                 </ul>
                 <hr>
-                     <p><h3>Top three facts about earth!</h3></p>
+                     
+                    <p><h3>Top three facts about earth!</h3></p>
 
             
-
-                <ol type="1" class="haque">
+            <div class="order-list">
+                <ol type="1">
 
                     <li>The Earth’s rotation is gradually slowing.</li>
 
@@ -92,6 +119,7 @@
                     <li>Earth has a powerful magnetic field.</li>
                     
                 </ol>
+            </div>
             
                 <hr>
 
