@@ -48,7 +48,7 @@ li{
     margin-bottom: 10px;
 }
 .list{
-    margin:20px 0 0 20px;
+    margin:20px 0 0 25px;
     list-style: square;
 }
 .botton {
@@ -66,6 +66,6 @@ li{
 }
 .botton:hover{
     color: #000;
-  background-color: #fff;
-  margin-bottom:0;
+    background-color: #fff;
+    margin-bottom:0;
 }
