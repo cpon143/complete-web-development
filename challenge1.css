@@ -7,7 +7,6 @@
     width:825px;
     border:4px black solid;
     margin:50px auto;
-
 }
 .product-title{
     font-weight: bold;
@@ -37,7 +36,7 @@
 }
 .product-information , .product-information a {
     color:black;
-    /* margin-top:10px; */
+    margin-bottom:10px;
 }
 .details{
     text-transform:uppercase;
@@ -52,6 +51,7 @@ li{
     list-style: square;
 }
 .botton {
+    
     text-align: center;
     background-color: #000;
     border: none;
@@ -65,7 +65,59 @@ li{
     border-top:4px black solid;
 }
 .botton:hover{
+    text-decoration:underline;
     color: #000;
     background-color: #fff;
     margin-bottom:0;
+}
+#sale{
+    text-transform:uppercase;
+    color:white;
+    font-size:10px;
+    background-color:red;
+    width:25px;
+    padding:5px 9px;
+    position:absolute;
+    top:40px;
+    left:240px;
+}
+
+#square-black{
+    background-color:black;
+    width:20px;
+    float:left;
+}
+#square-blue{
+    background-color:blue;
+    width:20px;
+    float:left;
+}
+#square-red{
+    background-color:red;
+    width:20px;
+    float:left;
+}
+#square-yellow{
+    background-color:yellow;
+    width:20px;
+    float:left;
+}
+#square-green{
+    background-color:green;
+    width:20px;
+    float:left;
+}
+#square-voilet{
+    background-color:violet;
+    width:20px;
+    float:left;
+}
+.square{
+    width:20px;
+    height: 20px;
+    margin-right:10px;
+    
+}
+.clear{
+    clear: both;
 }
