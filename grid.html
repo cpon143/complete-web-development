@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Grid</title>
+    <style type="text/css">
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  background-color: skyblue;
+  font-weight: bold;
+  font-size: 40px;
+  column-gap: 5px;
+  row-gap: 5px;
+  
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: rgb(61, 124, 93);
+}
+
+.box2 {
+  grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: -1;
+  background-color: violet;
+  
+}
+
+.box3{
+    background-color: royalblue;
+}
+.box4{
+    background-color: saddlebrown;
+    
+}
+.box5{
+    background-color: rgb(255, 0, 0);
+}
+
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="box box1">HTML</div>
+        <div class="box box2">And</div>
+        <div class="box box3">CSS</div>
+        <div class="box box4">Are</div>
+        <div class="box box5">Amazing</div>
+      </div>
+      
+</body>
+</html>
