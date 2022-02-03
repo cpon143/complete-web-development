@@ -185,7 +185,8 @@ float
      padding-top: 5px;
      justify-content: space-between;
      align-items: center;
+     grid-auto-columns: 200px;
  }
  .container1{
-     height: 190px;
+     height: 191px;
  }
