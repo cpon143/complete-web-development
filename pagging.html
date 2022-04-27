@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagging</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            position: relative;
+        }
+
+        .header {
+            max-width: 31rem;
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            top: 0;
+            right: 0;
+            box-shadow: 0 0px 30px #cccccc;
+        }
+
+        .header-text {
+            text-align: center;
+            font-size: 1.2rem;
+            background-color: white;
+            position:fixed;
+            padding-left:100px;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            margin-top: 1rem;
+        }
+
+        .subheading {
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 1.3rem 0 1.1rem 1.1rem;
+        }
+
+        .subheading .icon {
+            width: 3.8rem;
+        }
+
+        .icon-2 {
+            width: 3.8rem;
+            
+        }
+
+        .icon-3 {
+            width: 3.8rem;
+        }
+
+        .icon-4 {
+            width: 3.8rem;
+        }
+
+        .subheading h3 {
+            font-size: 1.2rem;
+        }
+
+        .content {
+            font-size: 1.2rem;
+            padding: 0 0 2rem 5.6rem;
+        }
+
+        .link-all {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .back:hover {
+            background-color: #effcfb;
+        }
+        .nev{
+            margin-top:3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="header">
+        <!-- <div class="cross"><p></p></div> -->
+
+        <div class="header-text">
+            <h2>Select Your Glasses Type</h2>
+            <hr class="line">
+        </div>
+        <div class="nev">
+            <div class="back">
+                <a class="link-all" href="#">
+                    <div class="subheading">
+                        <img class="icon" src="icon_1.png" alt="icon_1">
+                        <h3>Distance Glasses</h3>
+                    </div>
+                    <p class="content">Single vision glasses, these have one prescription throughout
+                        the whole lens and are used for seeing far
+                        away objects.</p>
+                </a>
+            </div>
+            <div class="back">
+                <a class="link-all" href="#">
+                    <div class="subheading">
+                        <img class="icon-2" src="icon_2.png" alt="icon_1">
+                        <h3>Reading Glasses</h3>
+                    </div>
+                    <p class="content">Single vision glasses used for near or intermediate vision.
+                        Your prescription will have a
+                        reading add to help you focus on close up objects.
+                    </p>
+                </a>
+            </div>
+            <div class="back">
+                <a class="link-all" href="#">
+                    <div class="subheading">
+                        <img class="icon-3" src="icon_3.png" alt="icon_1">
+                        <h3>Varifocal Glasses</h3>
+                    </div>
+                    <p class="content">Progressive glasses correct distance, intermediate and near vision in one lens.
+                        No need to
+                        switch between different glasses.
+                    </p>
+                </a>
+            </div>
+            <div class="back">
+                <a class="link-all" href="#">
+                    <div class="subheading">
+                        <img class="icon-4" src="icon_4.png" alt="icon_1">
+                        <h3>Frame only Glasses</h3>
+                    </div>
+                    <p class="content">Zero prescription can be used for style or with a blue light filter to protect
+                        your
+                        eyes
+                        from
+                        blue light whilst using digital screens.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
