@@ -245,7 +245,7 @@ p img {
     .mail-section {
         width: 25rem;
         height: 4rem;
-        font-size: 2rem;
+        font-size: 1.2rem;
         color: #777;
     }
 
@@ -329,7 +329,7 @@ p img {
         width:20rem;
     }
     .sign-in-section{
-        margin-left: -2.2rem;
+        /* margin-left: -2.2rem; */
         width: 23rem;
     }
     
