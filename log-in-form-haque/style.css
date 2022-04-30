@@ -182,6 +182,7 @@ p img {
 .footer-items:hover {
     cursor: pointer;
     text-decoration: underline;
+    color: #7C4DFF;
 }
 
 .copyright {
@@ -462,5 +463,6 @@ p img {
     .description {
         line-height: 1.5;
     }
+    
 
 }
