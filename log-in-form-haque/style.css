@@ -254,7 +254,7 @@ p img {
     }
 
     h4 {
-        font-size: 2.3rem;
+        font-size: 2rem;
     }
 
     .mail-section {
@@ -262,28 +262,30 @@ p img {
     }
 
     .remember {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .btn {
-        width: 34rem;
-        padding: 1.2rem 1.25rem;
-        font-size: 1.5rem;
+        width: 20rem;
+        padding: 1rem 1.25rem;
+        font-size: 1.2rem;
+        font-weight: 600;
     }
 
     .social-login {
-        margin-left: 10rem;
-        gap: 2rem;
+        margin-left: 4rem;
+        gap: 1.3rem;
     }
 
     .icon {
-        width: 3.2rem;
+        width: 2.2rem;
     }
 
     .btn-1 {
-        width: 34rem;
-        padding: 0.9rem 1.25rem;
-        font-size: 1.5rem;
+        width: 20rem;
+        padding: 0.8rem 1.25rem;
+        font-size: 1.2rem;
+        font-weight: 600;
     }
 
 
@@ -319,9 +321,7 @@ p img {
     .mail-section{
         width:20rem;
     }
-    .btn{
-        width: 20rem;
-    }
+    
     /* .social-login{
         margin: ;
     } */
