@@ -239,22 +239,23 @@ p img {
     .sign-in-section {
         width: 38rem;
         /* height: auto; */
+        padding-left: 23px;
 
     }
 
     .mail-section {
         width: 25rem;
-        height: 4rem;
+        height: 3.2rem;
         font-size: 1.2rem;
         color: #777;
     }
 
     h2 {
-        font-size: 2.8rem;
+        font-size: 2.3rem;
     }
 
     h4 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     .mail-section {
@@ -262,13 +263,13 @@ p img {
     }
 
     .remember {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .btn {
         width: 20rem;
         padding: 1rem 1.25rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-weight: 600;
     }
 
