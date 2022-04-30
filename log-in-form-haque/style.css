@@ -154,7 +154,7 @@ p img {
     width: 6.2rem;
 }
 
-.description{
+.description {
     color: #555;
 }
 
@@ -285,4 +285,52 @@ p img {
         padding: 0.9rem 1.25rem;
         font-size: 1.5rem;
     }
+
+
+    body {
+        overflow-x: hidden !important;
+    }
+
+    .container {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .box-1{
+        /* margin-left: -4rem; */
+        width: 28rem;
+    }
+    .page-container{
+        width: 25rem;
+    }
+    .feature-box{
+        width: 21rem;
+    }
+    .footer-hr{
+        margin-left: -8rem;
+        width: 30rem;
+    }
+    .copyright{
+        margin-left:-1rem;
+    }
+    .footer-items{
+        margin-left: 1rem;
+    }
+    .mail-section{
+        width:20rem;
+    }
+    .btn{
+        width: 20rem;
+    }
+    /* .social-login{
+        margin: ;
+    } */
+    .btn-1{
+        width:20rem;
+    }
+    .sign-in-section{
+        margin-left: -2.2rem;
+        width: 23rem;
+    }
+    
 }
