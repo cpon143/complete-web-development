@@ -62,9 +62,6 @@ hr {
     margin-bottom: 2rem;
 }
 
-.remember {
-    margin-left: 1rem;
-}
 
 .social-login {
     list-style: none;
@@ -74,7 +71,7 @@ hr {
 
 .fb {
     width: 0rem;
-    margin: 1.8rem 0 1rem 2.5rem;
+    margin: .8rem 0 1rem 2.5rem;
 }
 
 .icon {
@@ -98,11 +95,31 @@ hr {
     z-index: 1;
     border: none;
     transition: all .3s ease-in-out;
+    margin-bottom: 1rem;
 }
 
 .btn:hover {
     cursor: pointer;
     box-shadow: 0 14px 26px -12px rgb(124 77 255 / 42%), 0 4px 23px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(124 77 255 / 20%);
+}
+
+.remember {
+    margin-left: 1rem;
+}
+
+.remember-forget{
+    display: flex;
+    color: #444;
+}
+
+.forget{
+    text-decoration: none;
+    margin-left: 8rem;
+    color:#444
+}
+
+.forget:hover{
+    color: #7C4DFF;
 }
 
 .btn-1 {
@@ -229,6 +246,10 @@ p img {
         margin: 1rem auto 0 2rem;
     }
 
+    .forget{
+        margin-left: 11.56rem;
+    }
+
     .footer-hr {
         width: 36rem;
         border-top: 1px solid #f8f8f8;
@@ -263,15 +284,24 @@ p img {
         width: 34rem;
     }
 
-    .remember {
-        font-size: 1.2rem;
-    }
-
+    
     .btn {
         width: 20rem;
         padding: 1rem 1.25rem;
         font-size: 1rem;
         font-weight: 600;
+    }
+
+    .remember {
+    }
+    
+    .remember-forget{
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .forget{
+        margin-left: 2.4rem;
     }
 
     .social-login {
@@ -315,7 +345,7 @@ p img {
 
     .footer-hr {
         margin-left: -8rem;
-        width: 30.9rem;
+        width: 37.4rem;
     }
 
     .copyright {
@@ -377,7 +407,7 @@ p img {
     }
 
     .remember {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .btn {
@@ -385,6 +415,10 @@ p img {
         padding: 0.9rem 1.25rem;
         font-size: 1rem;
         font-weight: 600;
+    }
+
+    .forget{
+        margin-left: 4.1rem;
     }
 
     .social-login {
@@ -428,7 +462,7 @@ p img {
 
     .footer-hr {
         margin-left: -8rem;
-        width: 30.9rem;
+       max-width: 31.7rem;
     }
 
     .copyright {
