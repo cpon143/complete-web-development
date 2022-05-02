@@ -418,7 +418,7 @@ p img {
     }
 
     .forget{
-        margin-left: 4.1rem;
+        margin-left: 3.1rem;
     }
 
     .social-login {
@@ -461,8 +461,8 @@ p img {
     }
 
     .footer-hr {
-        margin-left: -8rem;
-       max-width: 31.7rem;
+        /* margin-left: -8rem; */
+       max-width: 21rem;
     }
 
     .copyright {
